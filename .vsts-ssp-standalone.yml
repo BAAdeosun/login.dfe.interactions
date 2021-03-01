@@ -3,12 +3,12 @@ resources:
   repositories:
     - repository: devopsTemplates
       type: github
-      endpoint: DfE-Digital
+      endpoint: github.com_BAAdeosun
       name: DFE-Digital/operations-devops-pipeline-templates
       ref: feature/stanalone-refactor
     - repository: config
       type: github
-      endpoint: DfE-Digital
+      endpoint: github.com_BAAdeosun
       name: DFE-Digital/login.dfe.config
       ref: master
 
