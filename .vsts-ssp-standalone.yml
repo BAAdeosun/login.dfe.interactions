@@ -1,7 +1,7 @@
 name: $(BuildDefinitionName)_tag-$(BuildID)_at-$(Date:yyyyMMdd)$(Rev:.r)
 resources:
   repositories:
-    - repository: devopsTemplates
+    - repository: GitHub-Endpoint-Edit
       type: github
       endpoint: github.com_BAAdeosun
       name: DFE-Digital/operations-devops-pipeline-templates
